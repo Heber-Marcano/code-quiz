@@ -10,3 +10,28 @@
   <header>
     <div id="timer">time</div>
   </header>
+  <body>
+    <div class="start-screen">
+      <h1>Coding quiz challenge</h1>
+      <p>click below to start the quiz.</p>
+      <button id="js-start-button">start quiz</button>
+    </div>
+    <section class="quiz-section">
+      <h2 id="js-question-text"></h2>
+      <ul>
+        <button type="button" id="answer-1"></button>
+        <button type="button" id="answer-2"></button>
+        <button type="button" id="answer-3"></button>
+        <button type="button" id="answer-4"></button>
+      </ul>
+    </section>
+    <section class="input-form" style="display: none">
+      <h3>Game Over!</h3>
+      <p>Your score: <span id="js-score"></span></p>
+      <lable for="initials">Enter your initials:</lable>"
+      <input type="text" id="initials" name="initials" required />
+      <button type="button" id="js-submit-button">Submit</button>
+    </section>
+    <script src="./assets/js/script.js"></script>
+  </body>
+</html>
